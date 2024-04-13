@@ -1,0 +1,73 @@
+<%- include('layouts/layout', {title: "Art Portfolio" ,body: ` `}) %>
+
+
+  <div class="bg-gray-500 flex flex-col p-10" style="width: 100%">
+    <div class="flex flex-row mx-auto">
+      <img class="rounded-full" src="/images/artgallery/profile/dp.jpg">
+    </div>
+    <h1 class="py-10 font-light text-white text-5xl" style="text-align: center">
+      Dr. Balaji Bhange
+    </h1>
+    <p class="mx-60 my-10 font-light text-white" style="text-align: center">
+      Born in Maharashtra, did graduation and post graduation from Sir J J School of Arts, recently Working as a
+      Freelance Artist and as Assistant Professor at Lovely Professionl University (punjab).Throughout my career, I
+      participated in numerous exhibitions which includes 6 solo shows and more than 20 group shows across India, and
+      won 6 International Awards, 25 National Level Awards and more than 30 State and Zonal Level Awards, earning
+      critical acclaim and admiration from art enthusiasts and collectors alike. My artworks has found its way into
+      private collections and galleries worldwide. I have 20+ years of experience in various art fields like Paintings,
+      Sculpture, Illustration, Films, Art Direction, Direction, Modelling and Teaching
+    </p>
+    <div class="py-10">
+      <div
+        class="items-center place-items-center border text-xl border-white w-52 mx-auto py-5 font-bold text-white flex justify-center hover:bg-white hover:text-black">
+        <a href="/about" class="text-black">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="slider" data-slider>
+      <ul class="slider__track" data-slider-track>
+        <li>
+          <div class="slide"><img src="/images/artgallery/home/image1.jpg" /></div>
+          <div class="flex flex-col justify-between items-center mx-auto mb-10">
+            <h1 class="text-3xl">Paint</h1>
+          </div>
+        </li>
+        <li>
+          <div class="slide"><img src="/images/artgallery/home/image2.jpg" /></div>
+          <div class="flex flex-col justify-between items-center mx-auto mb-10">
+            <h1 class="text-3xl">Paint</h1>
+          </div>
+        </li>
+
+        <li>
+          <div class="slide"><img src="/images/artgallery/home/image3.jpg" /></div>
+          <div class="flex flex-col justify-between items-center mx-auto mb-10">
+            <h1 class="text-3xl">Paint</h1>
+          </div>
+        </li>
+        <li>
+          <div class="slide"><img src="/images/artgallery/home/image4.jpg" /></div>
+          <div class="flex flex-col justify-between items-center mx-auto mb-10">
+            <h1 class="text-3xl">Paint</h1>
+          </div>
+        </li>
+        <li>
+          <div class="slide"><img src="/images/artgallery/home/image5.jpg" /></div>
+          <div class="flex flex-col justify-between items-center mx-auto mb-10">
+            <h1 class="text-3xl">Paint</h1>
+          </div>
+        </li>
+      </ul>
+      <div class="flex mx-auto flex-row justify-between">
+        <button class="border border-gray-400 px-5 py-2 hover:bg-pink-600" data-slider-prev disabled>
+          Previous
+        </button>
+        <button class="border border-gray-400 px-5 py-2 hover:bg-pink-600" data-slider-next>
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
